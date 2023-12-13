@@ -48,4 +48,3 @@ len_token = (int)zd_strlen(command_token);
 }
 return (NULL);
 }
-doha
