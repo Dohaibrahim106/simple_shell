@@ -48,4 +48,3 @@ free(ptr);
 }
 free(lineptr);
 }
-doha
