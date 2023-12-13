@@ -29,4 +29,3 @@ x++;
 argv[x] = NULL;
 return (argv);
 }
-doha
