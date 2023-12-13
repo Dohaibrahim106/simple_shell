@@ -2,15 +2,19 @@
 
 /**
  * zd_getline - Function that read line from file or user
+ *
  * @lineptr: pointer to string
+ *
  * @n: pointer to size
+ *
  * @stream: pointer to stream
+ *
  * Return: function returns numbers of read charecters.
 */
 
 ssize_t zd_getline(char **lineptr, size_t *n, FILE *stream)
 {
-return (getline(lineptr, n, stream));
+	return (getline(lineptr, n, stream));
 }
 
 /**
@@ -22,5 +26,5 @@ return (getline(lineptr, n, stream));
 
 char *zd_strtok(char *string, const char *delimiters)
 {
-return (strtok(string, delimiters));
+	return (strtok(string, delimiters));
 }
